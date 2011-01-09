@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-09 15:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: models.py:60
+msgid "Africa"
+msgstr "Africa"
+
+#: models.py:61
+msgid "North America"
+msgstr "Nord America"
+
+#: models.py:62
+msgid "Europe"
+msgstr "Europa"
+
+#: models.py:63
+msgid "Asia"
+msgstr "Asia"
+
+#: models.py:64
+msgid "Oceania"
+msgstr "Oceania"
+
+#: models.py:65
+msgid "South America"
+msgstr "Sud America"
+
+#: models.py:66
+msgid "Antarctica"
+msgstr "Antartide"
+
+#: models.py:70
+msgid "Another"
+msgstr "Altro"
+
+#: models.py:71
+msgid "Island"
+msgstr "Isola"
+
+#: models.py:72
+msgid "Arrondissement"
+msgstr "Quartiere"
+
+#: models.py:73
+msgid "Atoll"
+msgstr "Atollo"
+
+#: models.py:74
+msgid "Autonomous island"
+msgstr "Isola autonoma"
+
+#: models.py:75
+msgid "Canton"
+msgstr "Cantone"
+
+#: models.py:76
+msgid "Commune"
+msgstr "Comune"
+
+#: models.py:77
+msgid "County"
+msgstr "Contea"
+
+#: models.py:78
+msgid "Department"
+msgstr "Dipartimento"
+
+#: models.py:79
+msgid "Dependency"
+msgstr "Dipendenza"
+
+#: models.py:80
+msgid "District"
+msgstr "Distretto"
+
+#: models.py:81
+msgid "Division"
+msgstr "Divisione"
+
+#: models.py:82
+msgid "Emirate"
+msgstr "Emirato"
+
+#: models.py:83
+msgid "Governorate"
+msgstr "Governatorato"
+
+#: models.py:84
+msgid "Island council"
+msgstr "Isola del Consiglio"
+
+#: models.py:85
+msgid "Island group"
+msgstr "Gruppo di isole"
+
+#: models.py:86
+msgid "Island region"
+msgstr "Regione insulare"
+
+#: models.py:87
+msgid "Kingdom"
+msgstr "Regno"
+
+#: models.py:88
+msgid "Municipality"
+msgstr "Comune"
+
+#: models.py:89
+msgid "Parish"
+msgstr "Parrocchia"
+
+#: models.py:90
+msgid "Prefecture"
+msgstr "Prefettura"
+
+#: models.py:91
+msgid "Province"
+msgstr "Provincia"
+
+#: models.py:92
+msgid "Region"
+msgstr "Regione"
+
+#: models.py:93
+msgid "Republic"
+msgstr "Repubblica"
+
+#: models.py:94
+msgid "Sheading"
+msgstr "Sheading"
+
+#: models.py:95
+msgid "State"
+msgstr "Stato"
+
+#: models.py:96
+msgid "Subdivision"
+msgstr "Suddivisione"
+
+#: models.py:97
+msgid "Subject"
+msgstr "Oggetto"
+
+#: models.py:98
+msgid "Territory"
+msgstr "Territorio"
+
+#: models.py:106
+msgid "Country is active"
+msgstr "Il Paese esiste"
+
+#: models.py:111 models.py:164
+msgid "Official name (CAPS)"
+msgstr "Nome ufficiale (MAIUSCOLO)"
+
+#: models.py:116 models.py:169
+msgid "Country name"
+msgstr "Nome del paese"
+
+#: models.py:122
+msgid "ISO alpha-2"
+msgstr "ISO alfa-2"
+
+#: models.py:127
+msgid "ISO alpha-3"
+msgstr "ISO alfa-3"
+
+#: models.py:132
+msgid "ISO numeric"
+msgstr "ISO numerico"
+
+#: models.py:137
+msgid "Continent"
+msgstr "Continente"
+
+#: models.py:145 models.py:207
+msgid "Administrative Area"
+msgstr "Area amministrativa"
+
+#: models.py:149
+msgid "Country"
+msgstr "Stato"
+
+#: models.py:150
+msgid "Countries"
+msgstr "Paesi"
+
+#: models.py:173
+msgid "Country Name Translation"
+msgstr "Traduzione del Nome del paese"
+
+#: models.py:174
+msgid "Country Name Translations"
+msgstr "Traduzioni del Nome del paese"
+
+#: models.py:185
+msgid "Area is active"
+msgstr "La zona è attiva"
+
+#: models.py:194
+msgid "Admin Area name"
+msgstr "Nome dell'area amministrativa"
+
+#: models.py:200
+msgid "Postal Abbreviation"
+msgstr "Abbreviazione Postale"
+
+#: models.py:208
+msgid "Administrative Areas"
+msgstr "Aree Amministrative"
