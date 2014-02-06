@@ -22,7 +22,7 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 from fluo import admin
-from l10n.models import Country, AdministrativeArea
+from .models import Country, AdministrativeArea
 
 
 class AdministrativeAreaInline(admin.TabularInline):
