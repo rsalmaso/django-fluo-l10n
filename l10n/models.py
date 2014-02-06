@@ -181,7 +181,10 @@ class CountryTranslation(models.TranslationModel):
         unique_together = (('language', 'country',),)
 
     def __str__(self):
-        return '%s %s' % (self.country.printable_name, self.printable_name,)
+        return '%(translation)s (%(country)s)' % {
+            'country': self.country.printable_name,
+            'translation': self.printable_name,
+        }
 
 
 @python_2_unicode_compatible
