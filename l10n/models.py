@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 # Copyright (C) 2007-2014, Raffaele Salmaso <raffaele@salmaso.org>
-# 
+#
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-# 
+#
 # The above copyright notice and this permission notice shall be included in
 # all copies or substantial portions of the Software.
-# 
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
@@ -24,21 +24,21 @@
 # (http://www.satchmoproject.com) released as
 # Copyright (c) 2009, Satchmo Project
 # All rights reserved.
-# 
+#
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
-# 
+#
 # 1. Redistributions of source code must retain the above copyright notice,
 #    this list of conditions and the following disclaimer.
-# 
+#
 # 2. Redistributions in binary form must reproduce the above copyright
 #    notice, this list of conditions and the following disclaimer in the
 #    documentation and/or other materials provided with the distribution.
-# 
+#
 # 3. Neither the name of the Satchmo Project  nor the names of its
 #    contributors may be used to endorse or promote products derived
 #    from this software without specific prior written permission.
-# 
+#
 # THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
 # CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
 # INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
@@ -98,6 +98,7 @@ AREAS = (
     ('territory', _('Territory')),
 )
 
+
 class Country(models.I18NModel):
     """
     International Organization for Standardization (ISO) 3166-1 Country list
@@ -148,10 +149,11 @@ class Country(models.I18NModel):
     class Meta:
         verbose_name = _('Country')
         verbose_name_plural = _('Countries')
-        ordering = ('iso2_code','name',)
+        ordering = ('iso2_code', 'name',)
 
     def __unicode__(self):
         return self.printable_name
+
 
 class CountryTranslation(models.TranslationModel):
     country = models.ForeignKey(
@@ -177,9 +179,11 @@ class CountryTranslation(models.TranslationModel):
     def __unicode__(self):
         return '%s %s' % (self.country.printable_name, self.printable_name,)
 
+
 class AdministrativeArea(models.Model):
     """
-    Administrative Area level 1 for a country.  For the US, this would be the states
+    Administrative Area level 1 for a country.
+    For the US, this would be the states.
     """
     status = models.StatusField(
         verbose_name=_('Area is active'),
@@ -207,4 +211,3 @@ class AdministrativeArea(models.Model):
         verbose_name = _('Administrative Area')
         verbose_name_plural = _('Administrative Areas')
         ordering = ('name',)
-

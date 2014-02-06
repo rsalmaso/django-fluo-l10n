@@ -23,13 +23,13 @@
 from fluo import admin
 from l10n.models import Country, AdministrativeArea
 
+
 class AdministrativeAreaInline(admin.TabularInline):
     model = AdministrativeArea
     extra = 1
 class CountryAdmin(admin.ModelAdmin):
-    list_display = ('printable_name', 'iso2_code','iso3_code',)
+    list_display = ('printable_name', 'iso2_code', 'iso3_code',)
     list_filter = ('continent', 'status')
     search_fields = ('name', 'iso2_code', 'iso3_code')
     inlines = [AdministrativeAreaInline]
 admin.site.register(Country, CountryAdmin)
-
