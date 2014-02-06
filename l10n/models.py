@@ -54,7 +54,7 @@
 # SUCH DAMAGE.
 
 from django.utils.translation import ugettext_lazy as _
-from fluo import models
+from fluo.db import models
 
 CONTINENTS = (
     ('africa', _('Africa')),
