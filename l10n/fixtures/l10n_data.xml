@@ -2308,7 +2308,7 @@
         <field type="PositiveSmallIntegerField" name="numcode">840</field>
         <field type="CharField" name="status">active</field>
         <field type="CharField" name="continent">north-america</field>
-        <field type="CharField" name="admin_area">state</field>
+        <field type="CharField" name="admin_area">st</field>
     </object>
     <object pk="232" model="l10n.country">
         <field type="CharField" name="iso2_code">UM</field>
@@ -2989,7 +2989,7 @@
     <object pk="513" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Acre</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">AC</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1145" model="l10n.administrativearea">
@@ -3691,7 +3691,7 @@
     <object pk="514" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Alagoas</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">AL</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="880" model="l10n.administrativearea">
@@ -3727,7 +3727,7 @@
     <object pk="612" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Alberta</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">AB</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="752" model="l10n.administrativearea">
@@ -3841,7 +3841,7 @@
     <object pk="515" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Amapá</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">AM</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4440" model="l10n.administrativearea">
@@ -3871,7 +3871,7 @@
     <object pk="516" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Amazonas</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">AM</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1587" model="l10n.administrativearea">
@@ -4837,7 +4837,7 @@
     <object pk="214" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Australian Capital Territory</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">ACT</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="203" model="l10n.administrativearea">
@@ -5173,7 +5173,7 @@
     <object pk="517" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Bahia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">BA</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="434" model="l10n.administrativearea">
@@ -6835,7 +6835,7 @@
     <object pk="613" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">British Columbia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">BC</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4738" model="l10n.administrativearea">
@@ -7777,7 +7777,7 @@
     <object pk="518" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Ceará</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">CE</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="3430" model="l10n.administrativearea">
@@ -9120,7 +9120,7 @@
     </object>
     <object pk="697" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">54</field>
-        <field type="CharField" name="name">Côte dʼIvoire (general)</field>
+        <field type="CharField" name="name">Côte d'Ivoire (general)</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -9727,7 +9727,7 @@
     <object pk="519" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Distrito Federal</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">DF</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="185" model="l10n.administrativearea">
@@ -10603,7 +10603,7 @@
     <object pk="520" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Espírito Santo</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">ES</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="2583" model="l10n.administrativearea">
@@ -11632,16 +11632,10 @@
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
-    <object pk="522" model="l10n.administrativearea">
-        <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
-        <field type="CharField" name="name">Goias</field>
-        <field type="CharField" name="abbrev"></field>
-        <field type="CharField" name="status">active</field>
-    </object>
     <object pk="540" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Goiás</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">GO</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1204" model="l10n.administrativearea">
@@ -11766,7 +11760,7 @@
     </object>
     <object pk="556" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">17</field>
-        <field type="CharField" name="name">Governorʼs Harbour</field>
+        <field type="CharField" name="name">Governor's Harbour</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -11910,7 +11904,7 @@
     </object>
     <object pk="1864" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">94</field>
-        <field type="CharField" name="name">GrandʼAnse</field>
+        <field type="CharField" name="name">Grand'Anse</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -16440,7 +16434,7 @@
     </object>
     <object pk="790" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">44</field>
-        <field type="CharField" name="name">Libertador General Bernardo OʼHiggins</field>
+        <field type="CharField" name="name">Libertador General Bernardo O'Higgins</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -17743,7 +17737,7 @@
     <object pk="614" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Manitoba</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">MB</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="718" model="l10n.administrativearea">
@@ -17815,7 +17809,7 @@
     <object pk="524" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Maranhão</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">MA</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4496" model="l10n.administrativearea">
@@ -18103,13 +18097,13 @@
     <object pk="525" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Mato Grosso</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">MT</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="523" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Mato Grosso do Sul</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">MS</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="793" model="l10n.administrativearea">
@@ -18529,7 +18523,7 @@
     <object pk="526" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Minas Gerais</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">MG</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="3449" model="l10n.administrativearea">
@@ -18726,7 +18720,7 @@
     </object>
     <object pk="2466" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">123</field>
-        <field type="CharField" name="name">Mohaleʼs Hoek</field>
+        <field type="CharField" name="name">Mohale's Hoek</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -19735,7 +19729,7 @@
     <object pk="615" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">New Brunswick</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NB</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="40" model="l10n.administrativearea">
@@ -19783,7 +19777,7 @@
     <object pk="215" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">New South Wales</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NSW</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="43" model="l10n.administrativearea">
@@ -19801,7 +19795,7 @@
     <object pk="616" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Newfoundland and Labrador</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NL</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1420" model="l10n.administrativearea">
@@ -20407,7 +20401,7 @@
     <object pk="216" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Northern Territory</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NT</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1428" model="l10n.administrativearea">
@@ -20425,7 +20419,7 @@
     <object pk="623" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Northwest Territories</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NT</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4298" model="l10n.administrativearea">
@@ -20467,7 +20461,7 @@
     <object pk="617" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Nova Scotia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NS</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="2759" model="l10n.administrativearea">
@@ -20563,7 +20557,7 @@
     <object pk="624" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Nunavut</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">NU</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1925" model="l10n.administrativearea">
@@ -20941,7 +20935,7 @@
     <object pk="618" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Ontario</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">ON</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="326" model="l10n.administrativearea">
@@ -21565,13 +21559,13 @@
     <object pk="529" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Paraná</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PR</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="528" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Paraíba</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PB</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="946" model="l10n.administrativearea">
@@ -21607,7 +21601,7 @@
     <object pk="527" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Pará</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PA</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="3525" model="l10n.administrativearea">
@@ -21766,16 +21760,10 @@
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
-    <object pk="541" model="l10n.administrativearea">
-        <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
-        <field type="CharField" name="name">Pernambuco</field>
-        <field type="CharField" name="abbrev"></field>
-        <field type="CharField" name="status">active</field>
-    </object>
     <object pk="530" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Pernambuco</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PE</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="417" model="l10n.administrativearea">
@@ -21955,7 +21943,7 @@
     <object pk="531" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Piauí</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PI</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1299" model="l10n.administrativearea">
@@ -22212,7 +22200,7 @@
     </object>
     <object pk="2004" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">101</field>
-        <field type="CharField" name="name">Pondicherry</field>
+        <field type="CharField" name="name">Puducherry</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -22453,7 +22441,7 @@
     <object pk="619" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Prince Edward Island</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">PE</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1186" model="l10n.administrativearea">
@@ -22765,13 +22753,13 @@
     <object pk="620" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Quebec</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">QC</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="217" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Queensland</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">QLD</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="2990" model="l10n.administrativearea">
@@ -23437,19 +23425,19 @@
     <object pk="533" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Rio Grande do Norte</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">RN</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="534" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Rio Grande do Sul</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">RS</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="532" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Rio de Janeiro</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">RJ</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="864" model="l10n.administrativearea">
@@ -23593,13 +23581,13 @@
     <object pk="535" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Rondônia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">RO</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="536" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Roraima</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">RR</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="999" model="l10n.administrativearea">
@@ -24072,7 +24060,7 @@
     </object>
     <object pk="492" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">25</field>
-        <field type="CharField" name="name">Saint Georgeʼs</field>
+        <field type="CharField" name="name">Saint George's</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -24805,7 +24793,7 @@
     <object pk="537" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Santa Catarina</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">SC</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="921" model="l10n.administrativearea">
@@ -24949,7 +24937,7 @@
     <object pk="621" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Saskatchewan</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">SK</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="739" model="l10n.administrativearea">
@@ -25177,7 +25165,7 @@
     <object pk="539" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Sergipe</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">SE</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4184" model="l10n.administrativearea">
@@ -25722,7 +25710,7 @@
     </object>
     <object pk="494" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">25</field>
-        <field type="CharField" name="name">Smithʼs</field>
+        <field type="CharField" name="name">Smith's</field>
         <field type="CharField" name="abbrev"></field>
         <field type="CharField" name="status">active</field>
     </object>
@@ -25963,7 +25951,7 @@
     <object pk="218" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">South Australia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">SA</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1543" model="l10n.administrativearea">
@@ -26213,12 +26201,6 @@
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="1458" model="l10n.administrativearea">
-        <field to="l10n.country" name="country" rel="ManyToOneRel">230</field>
-        <field type="CharField" name="name">Staffordshire</field>
-        <field type="CharField" name="abbrev"></field>
-        <field type="CharField" name="status">active</field>
-    </object>
-    <object pk="1459" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">230</field>
         <field type="CharField" name="name">Staffordshire</field>
         <field type="CharField" name="abbrev"></field>
@@ -26785,7 +26767,7 @@
     <object pk="538" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">São Paulo</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">SP</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4232" model="l10n.administrativearea">
@@ -27265,7 +27247,7 @@
     <object pk="219" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Tasmania</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">TAS</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="2599" model="l10n.administrativearea">
@@ -27799,7 +27781,7 @@
     <object pk="542" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">31</field>
         <field type="CharField" name="name">Tocantins</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">TO</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="2214" model="l10n.administrativearea">
@@ -29107,7 +29089,7 @@
     <object pk="220" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Victoria</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">VIC</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4530" model="l10n.administrativearea">
@@ -29737,7 +29719,7 @@
     <object pk="221" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">14</field>
         <field type="CharField" name="name">Western Australia</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">WA</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4890" model="l10n.administrativearea">
@@ -30175,7 +30157,7 @@
     <object pk="622" model="l10n.administrativearea">
         <field to="l10n.country" name="country" rel="ManyToOneRel">39</field>
         <field type="CharField" name="name">Yukon Territory</field>
-        <field type="CharField" name="abbrev"></field>
+        <field type="CharField" name="abbrev">YT</field>
         <field type="CharField" name="status">active</field>
     </object>
     <object pk="4666" model="l10n.administrativearea">
