@@ -53,6 +53,7 @@
 # THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
+from __future__ import absolute_import, division, print_function, unicode_literals
 from django.utils.translation import ugettext_lazy as _
 from fluo.db import models
 
