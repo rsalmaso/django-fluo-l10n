@@ -55,6 +55,7 @@
 
 from __future__ import absolute_import, division, print_function, unicode_literals
 from django.utils.translation import ugettext_lazy as _
+from django.utils.encoding import python_2_unicode_compatible
 from fluo.db import models
 
 CONTINENTS = (
@@ -100,6 +101,7 @@ AREAS = (
 )
 
 
+@python_2_unicode_compatible
 class Country(models.I18NModel):
     """
     International Organization for Standardization (ISO) 3166-1 Country list
@@ -152,10 +154,11 @@ class Country(models.I18NModel):
         verbose_name_plural = _('Countries')
         ordering = ('iso2_code', 'name',)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.printable_name
 
 
+@python_2_unicode_compatible
 class CountryTranslation(models.TranslationModel):
     country = models.ForeignKey(
         Country,
@@ -177,10 +180,11 @@ class CountryTranslation(models.TranslationModel):
         verbose_name_plural = _('Country Name Translations')
         unique_together = (('language', 'country',),)
 
-    def __unicode__(self):
+    def __str__(self):
         return '%s %s' % (self.country.printable_name, self.printable_name,)
 
 
+@python_2_unicode_compatible
 class AdministrativeArea(models.Model):
     """
     Administrative Area level 1 for a country.
@@ -205,7 +209,7 @@ class AdministrativeArea(models.Model):
         verbose_name=_('Postal Abbreviation'),
     )
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
     class Meta:
